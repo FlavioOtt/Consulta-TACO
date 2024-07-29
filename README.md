@@ -6,7 +6,7 @@ Esta simples API foi feita para consultar os dados da tabela TACO, que está em 
 
 ## Documentação
 
-[Documentação]([https://link-da-documentação](https://app.swaggerhub.com/apis/OTTFLAVIO1/Consulta-TACO/1.0.0))
+[Documentação](https://app.swaggerhub.com/apis/OTTFLAVIO1/Consulta-TACO/1.0.0)
 
 
 ## Instalação
