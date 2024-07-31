@@ -11,7 +11,6 @@ async function especifico(id_alimento, unidade, quantidade){
         if (alimento) {
             let gramas = await isGramas(unidade);
             let kg = await isKg(unidade);
-            let divisor = 100.00;
 
             if (quantidade == 0) return { message: "Quantidade não informada", error: true };
 
@@ -20,7 +19,7 @@ async function especifico(id_alimento, unidade, quantidade){
 
             for (item in alimento){
 
-                if (typeof(alimento[item]) == "number"){
+                if (typeof(alimento[item]) == "number" && item != 'id'){
 
                     let valor = await alimento[item];
                     
